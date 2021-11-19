@@ -1,0 +1,151 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    background-color: #ebefff;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+
+  .logo{
+      margin-top: 25px;
+  }
+
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #9e9d9d;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+
+  *:focus {
+    outline: 0 !important;
+  }
+
+
+.espaçamento {
+  margin: 0 auto;
+  height:40px;
+}
+
+.calculadora {
+  margin: 0 auto;
+  width: 294px;
+ background-color: rgb(88, 110, 216);
+  border: 5px solid rgb(146, 146, 146);
+}
+
+.tela {
+  width: 279px;
+  border: 0;
+  border-radius: 1px;
+  height: 60px;
+  padding-right: 15px;
+  padding-top: 10px;
+  background-color: #ffffff;
+  text-align: right;
+  margin-right: 6px;
+  font-size: 2.5rem;
+  color: rgb(110, 110, 110);
+  overflow-x: auto;
+  transition: all .2s ease-in-out;
+}
+
+.contas div {
+  color: white;
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px 4px 10px 0;
+  cursor: pointer;
+  background-color: rgb(56, 155, 248);
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.contas div:hover {
+    background-color: rgb(103, 182, 255);
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+
+.painel-numeros {
+  display: inline-block;
+}
+
+.numeros div {
+  color: white;
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 4px 10px 0;
+  cursor: pointer;
+  background-color: rgb(56, 155, 248);
+  transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+}
+
+.numeros div:hover {
+    background-color: rgb(103, 182, 255);
+    transition: border-color .2s ease-in-out, background-color .2s, box-shadow .2s;
+  }
+
+.igual {
+  display: inline-block;
+  border: 0;
+  border-radius: 1px;
+  width: 40px;
+  text-align: center;
+  padding: 102px 10px;
+  margin: 10px 6px 10px 0;
+  vertical-align: top;
+  cursor: pointer;
+  color: #FFF;
+  background-color: rgb(56, 155, 248);
+  transition: all .2s ease-in-out;
+}
+
+.igual:hover {
+    background-color: rgb(103, 182, 255);
+    transition: all .2s ease-in-out;
+  }
+
+
+.rodape{
+    color: #9e9d9d;
+    margin: 50px 0 5px;
+}
+
+.rodape a{
+    color: #9e9d9d;
+    text-decoration:none;
+}
+
+
+.rodape a:hover{
+    color: #6d6d6d;
+    text-decoration:none;
+}
